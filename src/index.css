@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@layer base {
+  @import "@xyflow/react/dist/style.css";
+  html,
+  body,
+  #root {
+    height: 100%;
+    overflow: hidden;
+  }
+}
+
+.react-flow__node-default,
+.react-flow__node-input,
+.react-flow__node-output {
+  width: 200px;       
+  max-width: none;
+  background-color: #262626;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;  
+}
+

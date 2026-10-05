@@ -68,8 +68,7 @@ export const FlowBuilder = () => {
         source: connectingNodeWithHandle.current?.nodeId as string,
          target: node.id
       }),
-    );
-    connectingNodeWithHandle.current = null;
+    );    
   }
 
   return (
